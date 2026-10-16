@@ -26,12 +26,12 @@ Milestone 1 — Repository setup and Terraform foundation (in progress)
 - [x] AWS provider configured to use a variable for the deployment region.
 - [x] Environment variable validation added.
 - [x] Initial Terraform configuration validated locally.
-- [ ] README and initial project documentation completed.
-- [ ] Initial Git commit created and pushed to GitHub.
+- [x] README and initial project documentation completed.
+- [x] Initial Git commit created and pushed to GitHub.
 
 Milestone 2 — AWS networking and security (planned)
 
-- [ ] VPC and subnet configuration implemented.
+- [x] VPC and subnet configuration implemented.
 - [ ] Internet connectivity and routing configured where required.
 - [ ] Security groups configured with restricted inbound access.
 - [ ] IAM roles and policies implemented using least-privilege principles.
