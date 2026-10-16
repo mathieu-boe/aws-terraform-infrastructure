@@ -25,3 +25,14 @@ variable "vpc_cidr" {
     error_message = "The vpc_cidr variable must be a valid IPv4 CIDR block."
   }
 }
+
+variable "allowed_http_cidr" {
+  description = "Public IPv4 CIDR allowed to access the API over HTTP."
+  type        = string
+  default     = "2.120.145.46/32"
+
+  validation {
+    condition     = can(cidrhost(var.allowed_http_cidr, 0))
+    error_message = "allowed_http_cidr must be a valid IPv4 CIDR block."
+  }
+}
