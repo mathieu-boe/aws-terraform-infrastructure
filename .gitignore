@@ -31,3 +31,7 @@ terraform.rc
 
 # Saved Terraform plans
 tfplan
+
+# Python virtual environments
+.venv/
+venv/
