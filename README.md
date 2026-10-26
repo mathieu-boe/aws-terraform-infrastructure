@@ -87,10 +87,10 @@ These settings are currently defined in Terraform; the bucket has not been deplo
 - [x] Terraform formatting check configured.
 - [x] Terraform initialisation without a backend configured in CI.
 - [x] Terraform validation configured in CI.
-- [ ] GitHub Actions checks verified as passing for the current changes.
+- [x] GitHub Actions checks verified as passing for the current changes.
 - [ ] Setup, deployment, and cleanup instructions verified.
-- [ ] All local checks passing against the final configuration.
-- [ ] Repository changes pushed to GitHub.
+- [x] All local checks passing against the final configuration.
+- [x] Repository changes pushed to GitHub.
 
 ## Development
 
